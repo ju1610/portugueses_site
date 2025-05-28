@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Nova+Oval&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Eagle Lake", serif;
+    background-color: #B9A488;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.menu {
+    background-color: #947156;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    background-color: #a97450;
+}
+
+h1 {
+    color: #2e1b0e;
+    margin-top: 30px;
+    font-size: 46px;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+    padding-right: 20px;
+   
+}
+
+.conteudo {
+    display: flex;
+    padding: 40px;
+}
+
+.textos {
+    width: 50%;
+}
+
+img {
+    width: 50%;
+}
+
+@media (max-width: 800px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 5px;
+    }
+
+    .menu a {
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+    }
+
+    img{
+        display: none;
+    }
+
+    .textos{
+        width: 100%;
+    }
+
+}
